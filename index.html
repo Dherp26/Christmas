@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas for Helena</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background music -->
+    <audio autoplay loop>
+        <source src="music/songs.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Snowflakes -->
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+
+    <!-- Snowman Animation -->
+    <div class="snowman"></div>
+
+    <header>
+        <h1> Merry Christmas, Lena! 🎄</h1>
+        <p>珍惜我們一起度過的時光，現在我們一起度過聖誕節.</p>
+    </header>
+
+    <section class="main-content">
+        <h2>Your Christmas Gift 💝</h2>
+        <p>This website is just a little something to show you how much I care.</p>
+        <p>Cherish to our moment together forever!</p>
+        <ul>
+            <li>Your smile lights up my day.</li>
+            <li>You always make me feel loved and special.</li>
+            <li>Your heart is as warm as Christmas cookies.</li>
+            <li>Every moment with you is a gift I cherish.</li>
+        </ul>
+        <button class="surprise-btn">Click for a Christmas Surprise!</button>
+        
+        <!-- Christmas Tree Image -->
+        <img src="images/christmas-tree.png" alt="Christmas Tree" class="christmas-tree">
+
+        <!-- Extra Image -->
+        <img src="images/memory1.jpg" alt="A photo of us" class="extra-photo">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - A Christmas Gift for You</p>
+    </footer>
+
+    <script>
+        document.querySelector('.surprise-btn').addEventListener('click', function() {
+            alert('Merry Christmas! Here’s a special surprise for you: A lifetime of love and happiness! And we get married!');
+        });
+    </script>
+</body>
+</html>
