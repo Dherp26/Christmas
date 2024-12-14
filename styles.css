@@ -271,11 +271,16 @@ footer {
       width: 80%;
   }
 
+  
+  /* Adjust Christmas Tree for mobile view */
   .christmas-tree {
-      width: 70%;
-      max-width: 250px;
-      margin: 0 auto;
-  }
+    width: 30%; /* Make the tree smaller */
+    max-width: 150px; /* Set a max width to keep it small */
+    top: 10px; /* Keep it close to the top */
+    right: 10px; /* Position it at the top-right corner */
+    animation: none; /* Disable floating effect on mobile */
+}
+
 
   .extra-photo {
       width: 80%;
